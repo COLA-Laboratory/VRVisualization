@@ -24,6 +24,30 @@ As the 'Scatterplot' is a prefab, it can be reused very easily.
 
 ## Control
 
-When connect VR to the PC and run the project. Users can grab, rotate, move the plotter anyway they want by the controllers.
+When connect VR to the PC and run the project. Users can use the controllers to control the visualization plot. We provide several useful operations as bellow:
 
-Some basic move and teleport functions are also provided. 
+**Distance Control:**
+
+Users can use the rocker of controller to push forward and backward of the plot.
+
+![image-20220511143026768](image/distance.gif)
+
+
+
+**Rotation Control:**
+
+The rocker can also be pushed left and right to control the rotation of the plot.
+
+![image-20220511143026768](image/rotate.gif)
+
+
+
+**Follow the Hand:**
+
+When the controller ray intersect the plot, users can directly let the plot follow their hand movement.
+
+![image-20220511143026768](image/follow.gif)
+
+
+
+It is worth noting that the rocker of the left controller can be used to move around the VR world.
